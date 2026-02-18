@@ -1,0 +1,26 @@
+# Waktu menggunakan format HH:mm (24 Jam) berdasarkan Jam Abidjan (UTC+0)
+# Jam 03:00 WIB = 20:00 Abidjan (H-1)
+# Jam 16:00 WIB = 09:00 Abidjan
+events:
+  suhur_powerup:
+    name: "Suhur Power-Up"
+    start_time: "20:00"
+    end_time: "22:00"
+    commands_start:
+      - "gens speed 2"
+      - "bc §b§l[SUHUR] §fPower-Up Aktif! §e2x Generator Speed!"
+    commands_end:
+      - "gens speed 1"
+      - "bc §c§l[SUHUR] §fEvent Suhur berakhir."
+
+  ngabuburit_sale:
+    name: "Ngabuburit Flash Sale"
+    start_time: "09:00"
+    end_time: "11:00"
+    commands_start:
+      - "sell multiplier 1.5"
+      - "bc §6§l[NGABUBURIT] §fFlash Sale Aktif! §e1.5x Sell Multiplier!"
+    commands_end:
+      - "sell multiplier 1.0"
+      - "bc §c§l[NGABUBURIT] §fFlash Sale berakhir."
+
