@@ -1,0 +1,9 @@
+name: GoldenSchedule
+version: 1.0
+main: com.ramadhan.schedule.GoldenSchedule
+api-version: 1.21
+commands:
+  gs:
+    description: Main command for GoldenSchedule
+    permission: goldenschedule.admin
+
